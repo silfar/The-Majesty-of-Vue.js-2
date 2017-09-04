@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Hello Vue </title>
+    </head>
+    <body>
+        <div id="app">
+            <div v-if="gender == 'M' || gender == 'F'">  
+                <h1> Olá,
+                    <span v-show="gender == 'M'">Mister {{nome}}</span>
+                    <span v-show="gender == 'F'">Miss {{nome}}</span>
+                </h1>
+            </div>
+            <h1 v-else>{{message}}</h1>
+            
+            <h1>Entre com seu sexo:</h1>
+            <input type="radio" v-model="gender" value="M" checked> Masculino<br>
+            <input type="radio" v-model="gender" value="F"> Feminino<br>
+            <input type="radio" v-model="gender" value="I"> Indeciso  
+            <h1>Diga Seu nome:</h1>
+            <input  v-model='nome'>
+            <pre>
+                {{$data}}
+            </pre>
+        </div>
+    </body>
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+        var app = new new Vue({
+            el: "#app",
+            data:{
+                message : "So you can't decide. Fine!",
+                gender: 'I',
+                nome: "Universe"
+            }
+        })
+       
+    </script>
+</html>
