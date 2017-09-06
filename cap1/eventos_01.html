@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h1>Votos</h1>
-        <button v-on:click="upvotes++">
+        <button v-on:click="upvote" class="btn btn-primary">
             Upvote! {{upvotes}}
         </button>
     </div>
@@ -21,8 +21,13 @@
             el: ".container",
             data: {
                 upvotes: 0
+                },
+            methods: {
+                upvote: function(){
+                    this.upvotes++;
                 }
-            })
+            }
+        })
     </script>    
  </body>
 </html>
