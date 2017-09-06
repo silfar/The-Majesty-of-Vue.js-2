@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51eea4d3-14b9-4994-9ec5-e752844c5988" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cap1/boostrap2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cap1/for_objeto.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap1/v-if.html" afterPath="$PROJECT_DIR$/cap1/v-if.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +21,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="boostrap2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="boostrap2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cap1/boostrap2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="161">
+              <caret line="7" column="111" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="for_array.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap1/for_array.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <marker date="1504723910344" expanded="true" signature="783:821" ph="..." />
+                <marker date="1504723910344" expanded="true" signature="919:1183" ph="..." />
+                <marker date="1504723910344" expanded="true" signature="933:1171" ph="{&quot;el&quot;: '.container'...}" />
+                <marker date="1504723910344" expanded="true" signature="975:1165" ph="{...}" />
+                <marker date="1504723910344" expanded="true" signature="998:1155" ph="[...]" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="for_objeto.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap1/for_objeto.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="for_objeto_key.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cap1/for_objeto_key.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -46,6 +83,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cap1/boostrap2.html" />
+        <option value="$PROJECT_DIR$/cap1/for_array.html" />
+        <option value="$PROJECT_DIR$/cap1/for_objeto.html" />
+        <option value="$PROJECT_DIR$/cap1/for_objeto_key.html" />
       </list>
     </option>
   </component>
@@ -77,6 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,8 +135,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -126,7 +166,9 @@
       <updated>1504531715048</updated>
       <workItem from="1504531717638" duration="588000" />
       <workItem from="1504637103117" duration="270000" />
-      <workItem from="1504637408680" duration="651000" />
+      <workItem from="1504637408680" duration="1246000" />
+      <workItem from="1504723216151" duration="690000" />
+      <workItem from="1504725219041" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="Inicial">
       <created>1504531832224</created>
@@ -139,7 +181,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1509000" />
+    <option name="totallyTimeSpent" value="3423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
@@ -181,6 +223,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cap1/boostrap2.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="111" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap1/for_array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <marker date="1504723910344" expanded="true" signature="783:821" ph="..." />
+            <marker date="1504723910344" expanded="true" signature="919:1183" ph="..." />
+            <marker date="1504723910344" expanded="true" signature="933:1171" ph="{&quot;el&quot;: '.container'...}" />
+            <marker date="1504723910344" expanded="true" signature="975:1165" ph="{...}" />
+            <marker date="1504723910344" expanded="true" signature="998:1155" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap1/for_objeto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap1/boostrap2.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -189,8 +261,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cap1/boostrap2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap1/boostrap2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="111" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap1/for_array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <marker date="1504723910344" expanded="true" signature="783:821" ph="..." />
+            <marker date="1504723910344" expanded="true" signature="919:1183" ph="..." />
+            <marker date="1504723910344" expanded="true" signature="933:1171" ph="{&quot;el&quot;: '.container'...}" />
+            <marker date="1504723910344" expanded="true" signature="975:1165" ph="{...}" />
+            <marker date="1504723910344" expanded="true" signature="998:1155" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap1/for_objeto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap1/for_objeto_key.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding />
         </state>
       </provider>

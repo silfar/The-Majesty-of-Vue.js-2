@@ -11,8 +11,8 @@
     <div class="container">
         <h1>Let's hear some stories!</h1>
         <ul class="list-group">
-            <li class="list-group-item" v-for="(story,index) in stories">
-               {{index}} - {{story.write}} said "{{ story.plot }}"           
+            <li class="list-group-item" v-for="(value, key,index) in stories">
+               {{index}} : {{key}} : {{value}}      
             </li>
         </ul>
     </div>
@@ -24,26 +24,14 @@
         new Vue({
             el: ".container",
             data: {
-                stories: [
-                    {
+                stories: {
                         plot: "I crashed my car today!",
-                        write: "Alex"
-                    },
-                    {
-                        plot: "Yesterday, someone stole my bag!",
-                        write: "John" 
-                    },
-                    {
-                        plot: "Someone ate my chocolate...",
-                        write: "John"
-                    },
-                    {
-                        plot: "I ate someone's chocolate!",
-                        write: "Alex"
-                    }    
-                ]
-            }
-        })
+                        write: "Alex",
+                        upvotes: 46
+                    }
+                 
+                }
+            })
     </script>    
  </body>
 </html>
